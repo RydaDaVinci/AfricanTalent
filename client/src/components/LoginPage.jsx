@@ -32,7 +32,7 @@ const LoginPage = () => {
       }
     } catch (error) {
       // Handle any error that occurs during login
-      setErrorMessage("Invalid email or password. Please try again");
+      setErrorMessage(`An error occurred ${error}`);
     }
   };
 
